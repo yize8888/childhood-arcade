@@ -1,0 +1,20 @@
+# Build artifacts
+node_modules
+dist
+
+# Runtime user data — lives in the /data volume, not the image
+# (keep data/bios so it can be seeded into the image)
+data/app.db*
+data/uploads
+data/saves
+
+# Secrets & local env
+.env
+.env.local
+
+# VCS + editor
+.git
+.gitignore
+.vscode
+
+*.log

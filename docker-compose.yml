@@ -1,0 +1,17 @@
+services:
+  childhood-arcade:
+    build: .
+    image: childhood-arcade:latest
+    container_name: childhood-arcade
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      # 100MB default upload cap
+      MAX_UPLOAD_BYTES: "104857600"
+      # First-boot admin defaults to admin / admin123 — change it immediately
+      # after the first login via the profile menu.
+      # ADMIN_USERNAME: admin
+      # ADMIN_PASSWORD: your-strong-password
+    volumes:
+      - ./data:/data

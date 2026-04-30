@@ -1,0 +1,15 @@
+node_modules
+dist
+.env
+.env.local
+*.log
+.DS_Store
+.vscode
+
+# Runtime user data lives in /data on the host volume — never commit it.
+# Exception: data/bios and data/cores ship with the repo so the Docker image
+# can seed default BIOS files and emulator cores into a fresh /data volume
+# on first boot.
+data/app.db*
+data/uploads/
+data/saves/
