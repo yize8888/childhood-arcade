@@ -16,6 +16,8 @@
 ![stack](https://img.shields.io/badge/stack-Vue%203%20·%20Hono%20·%20SQLite-6366F1)
 ![vibe](https://img.shields.io/badge/vibe-modern%20slate%20·%20indigo-6366F1)
 
+示例网站：https://game.520hello.cn/
+
 在自家服务器 / NAS 上开一间童年游戏厅——**街机 / FC / SFC / GB / GBA / MD / PS1** 一条龙，浏览器直接开玩，多端云存档，WebRTC 一键开房和朋友对战。底层 libretro，不装客户端。
 
 ---
