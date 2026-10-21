@@ -86,5 +86,7 @@ defineExpose({
   image-rendering: crisp-edges;
   background: #000;
   outline: none;
+  top: 54px !important;
+  height: calc(100% - 54px) !important;
 }
 </style>
